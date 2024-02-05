@@ -19,7 +19,6 @@ The following Open Rewrite Recipes are supported:
 - [Python recipes](https://docs.openrewrite.org/recipes/python) (v1.1.2)
 - [Terraform recipes](https://docs.openrewrite.org/recipes/terraform) (v2.0.5)
 
-
 ## <a id="syntax-ref"></a>Syntax reference
 
 ```console
