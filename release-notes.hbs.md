@@ -1785,6 +1785,11 @@ see [Configure Envoy for Contour](contour/how-to-guides/configuring-envoy.hbs.md
   upgrading `app-scanning.apps.tanzu.vmware.com` to v0.2.0.
   See [Troubleshooting](./scst-scan/app-scanning-troubleshooting.hbs.md#upgrading-scan-0.2.0).
 
+#### <a id='1-7-0-scst-store'></a> v1.7.0 Breaking changes: Supply Chain Security Tools (SCST) - Store
+
+- To enable DORA metrics functionality, if you configured the `environment` label, rename it
+  to `env`. For more information, see [Configure Artifact Metadata Repository](scst-store/amr/configuration.hbs.md).
+
 #### <a id='1-7-0-cli-re-br'></a> v1.7.0 Breaking changes: Tanzu CLI command reference documentation
 
 - The Tanzu CLI plug-in command reference documentation has moved from the Tanzu Application Platform
