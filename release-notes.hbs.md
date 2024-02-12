@@ -1668,6 +1668,7 @@ This release includes the following changes, listed by component and area.
 - [SCST - Scan 2.0 (beta)](scst-scan/app-scanning-beta.hbs.md) now uses Trivy as
   the default scanner for container image scanning using the included image and template.
   SCST - Scan 1.0 maintains Grype as the default.
+  
 
 #### <a id='1-7-0-scst-store'></a> v1.7.0 Features: Supply Chain Security Tools (SCST) - Store
 
@@ -1684,6 +1685,9 @@ AMR has the following new features in v1.7.0:
 
 - AMR GraphQL now contains data for Images, Containers, and Location.
   For more information, see [Data Model and Concepts](scst-store/amr/data-model-and-concepts.hbs.md).
+
+- To enable DORA metrics functionality, if you configured the `environment` label, rename it
+  to `env`. For more information, see [Configure Artifact Metadata Repository](scst-store/amr/configuration.hbs.md).
 
 #### <a id='1-7-0-cli'></a> v1.7.0 Features: Tanzu CLI and plug-ins
 
@@ -1784,11 +1788,6 @@ see [Configure Envoy for Contour](contour/how-to-guides/configuring-envoy.hbs.md
 - SCST - Scan 2.0: You must upgrade the Tanzu Application Platform package to v1.7.0 before
   upgrading `app-scanning.apps.tanzu.vmware.com` to v0.2.0.
   See [Troubleshooting](./scst-scan/app-scanning-troubleshooting.hbs.md#upgrading-scan-0.2.0).
-
-#### <a id='1-7-0-scst-store'></a> v1.7.0 Breaking changes: Supply Chain Security Tools (SCST) - Store
-
-- To enable DORA metrics functionality, if you configured the `environment` label, rename it
-  to `env`. For more information, see [Configure Artifact Metadata Repository](scst-store/amr/configuration.hbs.md).
 
 #### <a id='1-7-0-cli-re-br'></a> v1.7.0 Breaking changes: Tanzu CLI command reference documentation
 
